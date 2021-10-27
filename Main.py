@@ -536,7 +536,7 @@ parameter_dict = {'n_estimators': [100, 200, 300, 400, 500],
                   'max_depth': [1, 5, 8, 9, 10],
                   'min_samples_leaf': [0.1, 0.2]}
 
-# model_tuning_GS(RandomForestClassifier(random_state=42), parameter_dict)
+model_tuning_GS(RandomForestClassifier(random_state=42), parameter_dict)
 
 # Create a Gaussian Classifier using the best params found.
 clf = RandomForestClassifier(n_estimators=100, max_depth=5)
