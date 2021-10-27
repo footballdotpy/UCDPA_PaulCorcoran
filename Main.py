@@ -40,7 +40,7 @@ def kaggle_download(dataset, kaggle_file_name):
 
 kaggle_download(dataset='stefanoleone992/fifa-22-complete-player-dataset', kaggle_file_name='players_22.csv')
 
-kaggle_download(dataset='stefanoleone992/fifa-21-complete-player-dataset', kaggle_file_name='players_21.csv')
+kaggle_download(dataset='stefanoleone992/fifa-22-complete-player-dataset', kaggle_file_name='players_21.csv')
 
 # use zipfile module to unzip files into directory.
 
